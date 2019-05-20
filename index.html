@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="src/index.js" type="module"></script>
+    <style>
+        #messages {
+            position: absolute;
+            background-color: black;
+            color: white;
+            font-size: 24px;
+            z-index: 9999;
+            text-align: center;
+        }
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+            font-weight: 300;
+
+            background: #333333;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div id="game-container">
+        <div id="messages"></div>
+    </div>
+</div>
+</body>
+</html>

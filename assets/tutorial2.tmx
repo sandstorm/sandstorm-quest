@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="22" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="12">
+ <tileset firstgid="1" source="simples_pimples.tsx"/>
+ <layer id="2" name="Background" width="22" height="11">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,2552,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2551,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2553,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2553,0,0,
+0,0,0,2553,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,2552,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="World" width="22" height="11">
+  <data encoding="csv">
+253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,253,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,253,
+203,203,203,2453,203,203,203,2453,203,203,203,2453,203,203,203,2453,203,203,203,203,0,253,
+253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,0,253,
+253,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,253,
+253,401,203,203,203,203,203,203,203,203,203,203,203,203,203,203,203,203,203,203,203,253,
+253,451,253,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,253,
+253,451,253,401,203,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+253,451,451,451,253,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+253,203,203,203,253,203,203,203,203,203,203,203,203,203,203,203,203,203,203,203,203,203
+</data>
+ </layer>
+ <layer id="3" name="Foreground" width="22" height="11">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,2129,0,0,0,0,0,0,0,2129,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1308,0,0,0,0,1308,0,0,0,0,1308,0,0,0,0,
+0,0,0,0,0,0,0,1358,0,0,0,0,1358,0,0,0,0,1358,0,0,0,0,
+0,0,0,0,0,0,0,1408,0,0,0,0,1408,0,0,0,0,1408,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Dynamic" width="22" height="11">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1830,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1829,0,0,0,1780,0,1779,0,0,1730,0,1729,0,0,1680,0,1679,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1830,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Objects">
+  <object id="1" name="Mind your step!" x="16.3957" y="32.323" width="15.9273" height="16.3957">
+   <properties>
+    <property name="message" value="Watch your steps and try to not harm yourself."/>
+   </properties>
+  </object>
+  <object id="2" name="Potions" x="270.764" y="31.3861" width="18.2695" height="17.3326">
+   <properties>
+    <property name="message" value="Some potions will heal you up. Try this one!"/>
+   </properties>
+  </object>
+  <object id="3" name="Potion Size" x="303.556" y="79.168" width="16.8642" height="17.3326">
+   <properties>
+    <property name="message" value="This was lucky. Now try the black ones. Start with a small phial."/>
+   </properties>
+  </object>
+  <object id="4" name="Leap of Faith" x="47.7819" y="79.168" width="17.3326" height="17.3326">
+   <properties>
+    <property name="message" value="I wonder if this goes to the extreme as well."/>
+   </properties>
+  </object>
+  <object id="5" name="Complaint" x="161.147" y="15.4588" width="102.591" height="49.6557">
+   <properties>
+    <property name="message" value="(Who builds houses like that?)"/>
+   </properties>
+  </object>
+  <object id="7" name="Resurrected" x="63.2407" y="112.428" width="18.2695" height="19.2064">
+   <properties>
+    <property name="message" value="I knew that ... of course. Gratulations to your new life."/>
+   </properties>
+  </object>
+  <object id="8" name="Complaint" x="96.9691" y="111.491" width="191.596" height="50.1241">
+   <properties>
+    <property name="message" value="(I feel sick.)"/>
+   </properties>
+  </object>
+  <object id="10" name="Spawn Point" x="23.8909" y="18.738">
+   <point/>
+  </object>
+  <object id="11" name="Exit" x="335.879" y="128.355" width="16.8642" height="33.2599">
+   <properties>
+    <property name="nextLevel" value="tutorial3"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

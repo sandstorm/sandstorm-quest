@@ -1,0 +1,19 @@
+{
+  "name": "sandstorm-quest",
+  "version": "1.0.0",
+  "description": "* jump and run arcade * also see [README.md in project root](../README.md)",
+  "main": "src/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "parcel:dev": "parcel index.html",
+    "parcel:build": "rm -rf ./dist && parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sandstorm Media GmbH",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
